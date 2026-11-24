@@ -4,9 +4,10 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 // The entry is one line about a small good thing that happened today:
-// a bus driver waiting, a sprinting man with a baguette, twelve cheering passengers.
+// an old man at the bus stop teaching a little girl to fold a paper crane,
+// and the crane she now carries everywhere like a passport. v2: pre-test winner.
 const line =
-  "This morning the bus driver waited for a man sprinting down the street with a baguette under his arm, and all twelve passengers cheered when he made it.";
+  "The old man at the bus stop taught my daughter to fold a paper crane, and she has been carrying it like a passport ever since.";
 
 const here = dirname(fileURLToPath(import.meta.url));
 
